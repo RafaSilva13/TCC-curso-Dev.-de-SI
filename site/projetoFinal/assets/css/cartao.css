@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.cartao {
+    margin: 0;
+    padding: 0;
+    margin-top: -3rem;
+    margin-bottom: -2rem;
+    margin-right: -2rem;
+    margin-left: -2rem;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    width: auto;
+    height: auto;
+    transform: scale(0.6);
+    will-change: transform;
+}
+
+:root {
+    --white: #fafafa;
+    --violet: #e2d8fd;
+    --dark-blue: #16044a;
+    --gray1: #e1e1e1;
+    --gray2: #6a6a6a;
+}
+
+.cartao, .main-container {
+    height: 100%;
+}
+
+.cartao  {
+    font-size: 1.6rem;
+
+}
+
+.cartao  {
+   text-decoration: none; 
+}
+
+.cartao  {
+    list-style: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scene {
+    width: 100%;
+    max-width: 35rem;
+    height: 20rem;
+    margin: 0 auto;
+    perspective: 600px;
+}
+
+.cardCartao {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: -15px 20px 20px rgba(22, 4, 74, 0.15);
+
+}
+
+.cardCartao:hover {
+    cursor: pointer;
+}
+
+.card__front, .card__back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card__front {
+    padding: 0 2rem;
+}
+
+.card__logo {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem; 
+}
+
+.card__number {
+    display: flex;
+    margin-bottom: 1.2rem;
+    padding-right: 7.5rem;
+    padding-top: 1.2rem;
+
+}
+
+.number-group, .card__holder__name, .card__expiration__date {
+    font-size: 2.0rem;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+.card__details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__holder, .card__expiration {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__holder_title, .card__expiration__title {
+    color: var(--white);
+    opacity: 0.7;
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+    font-weight: 800;
+}
+
+.card__holder__name, .card__expiration__date {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card__expiration__date, .card__expiration__title {
+    padding-right: 1rem;
+}
+
+.card__back {
+    padding-top: 4rem;
+    transform: rotateY(180deg);
+}
+
+.cardCartao.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card__stripe {
+    height: 4rem;
+    background: var(--gray1);
+}
+
+.card__signature {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4.5rem;
+    background: var(--white);
+    margin: 2rem 6rem 0 2rem;
+    padding-right: 1rem;
+}
+
+.card__cvv, .card__cvv-number, .card__info {
+    font-weight: 600;
+}
+
+.card_cvv, .card__cvv-number {
+    color: var(--dark-blue);
+}
+
+.card__cvv {
+    margin-right: 0.5rem;
+    font-weight: 800;
+}
+
+.card__info {
+    font-size: 0.7rem;
+    padding: 1.5rem 2rem;
+    color: var(--white);
+}
+
+.logoApresCard {
+    width: 55px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.3rem;
+    margin-right: 0.2rem;
+}
+
+.exibicaoCartao {
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 450px)  {
+    .exibicaoCartao {
+        padding-right: 2rem;
+    }
+}
+
+.btnExcluirCartao {
+    margin-left: 9.5rem;
+}

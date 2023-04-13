@@ -1,0 +1,103 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+}
+p {
+	font-size: 16px;
+}
+h4 {
+    line-height: 2.75rem;
+}
+#links {
+    width: 100%;
+    line-height: 1.9rem;
+}
+.bt {
+    margin-top: 1rem;
+}
+.img-redonda {
+    border-radius: 100%;
+}
+.margin {
+	margin-bottom: 45px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a {
+    color: #2f2f2f;
+    text-decoration: none;
+    padding-right: 1.5rem;
+}
+.navbar-nav li a:hover {
+    font-weight: bold;
+}
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.bg1 {
+       background-color: #ebeff7; 
+        color: #000000;
+    }
+
+.bg2 {
+      background-color: #ebeff7; 
+      color: #000000;
+  }
+  
+.bg2 ul li {
+	width: 80%;
+	color: #222;
+	margin: auto;
+}
+.bg2 h3 {
+	  text-align: center;
+}
+
+.bg3 {
+      background-color: #ffffff; 
+      color: #555555;
+  }
+
+.bg4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+#div-formacoes, #div-cursos {
+    height: 90vh;
+}
+.lista {
+    text-align: left;
+}
+.modal {
+    color: #222;
+}
+#edita-perfil a {
+    color: #fff;
+    text-decoration: none;
+}
+#edita-perfil a:hover {
+    color: rgb(93, 149, 223);
+    text-decoration: underline;
+}
+.cadcurso {
+    height: 100vh;
+}
+
+.form-label{
+    color:rgb(0, 0, 0);
+}
+
+.butaozin{
+    color:aqua;
+}
+  

@@ -1,0 +1,1177 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-title {
+    vertical-align: middle;
+}
+
+.imgAdmIcons {
+    width: 4.5rem;
+}
+
+.cardOpAdministracao {
+    cursor: pointer;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+#myChart2 {
+    padding: 2rem;
+}
+
+button#dropdowns.btn.btn-dark.dropdown-toggle::after {
+    margin-left: 0.5em;
+    margin-right: -0.5em;
+}
+
+button#selecionarCard.btn.btn-dark.dropdown-toggle::after {
+    margin-left: 0.5em;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.cardOpAdministracao:hover {
+    transform: scale(1.02);
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;     
+    margin: auto;
+}
+
+.btnLoginMotoboy {
+    margin-right: 7rem;
+}
+
+.landing-page {
+    position: relative;
+    background-color: #ebebeb;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.landing-page .header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+}
+
+.landing-page .header-area .logo {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    color: #5d5d5d;
+}
+
+.table-dark {
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+.bgAdmClientes {
+    box-shadow:
+    0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+    0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+    0px 1.1px 10px rgba(0, 0, 0, 0.03),
+    0px 2px 17.9px rgba(0, 0, 0, 0.036),
+    0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+    0px 9px 80px rgba(0, 0, 0, 0.06);
+
+    background-color: #ffffff;
+    width: 70rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+.bgAdmMotoboy {
+    box-shadow:
+    0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+    0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+    0px 1.1px 10px rgba(0, 0, 0, 0.03),
+    0px 2px 17.9px rgba(0, 0, 0, 0.036),
+    0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+    0px 9px 80px rgba(0, 0, 0, 0.06);
+
+    background-color: #ffffff;
+    width: 70rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+.bgAdmServicos {
+    box-shadow:
+    0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+    0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+    0px 1.1px 10px rgba(0, 0, 0, 0.03),
+    0px 2px 17.9px rgba(0, 0, 0, 0.036),
+    0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+    0px 9px 80px rgba(0, 0, 0, 0.06);
+
+    background-color: #ffffff;
+    width: 70rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+.bgExibirAtivosClientes {
+    box-shadow:
+    0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+    0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+    0px 1.1px 10px rgba(0, 0, 0, 0.03),
+    0px 2px 17.9px rgba(0, 0, 0, 0.036),
+    0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+    0px 9px 80px rgba(0, 0, 0, 0.06);
+
+    background-color: #ffffff;
+    width: 100%;
+    height: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+
+    position: relative;
+    
+}
+
+.mapaExibicaoMb {
+    width: 80%; 
+    height: 22rem; 
+    background-color: #ddd;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.exibirServicoMb {
+    box-shadow:
+    0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+    0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+    0px 1.1px 10px rgba(0, 0, 0, 0.03),
+    0px 2px 17.9px rgba(0, 0, 0, 0.036),
+    0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+    0px 9px 80px rgba(0, 0, 0, 0.06);
+
+    background-color: #ffffff;
+    width: 60%;
+    height: 31rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+
+    position: relative;
+    
+}
+
+.bgAdmDadosRegiao {
+    box-shadow:
+    0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+    0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+    0px 1.1px 10px rgba(0, 0, 0, 0.03),
+    0px 2px 17.9px rgba(0, 0, 0, 0.036),
+    0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+    0px 9px 80px rgba(0, 0, 0, 0.06);
+
+    background-color: #ffffff;
+    width: 70rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+#msgVazio {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #5d5d5d;
+}
+
+.landing-page .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li {
+    display: inline-block;
+    margin-left: 30px;
+    color: #5d5d5d;
+    cursor: pointer;
+}
+
+.landing-page .header-area .links li:last-child {
+    align-items: center;
+    padding-bottom: -10px;
+}
+
+.landing-page .info2 {
+    width: 35%;
+    float: right;
+    margin-top: 80px;
+    margin-left: -1rem;
+}
+
+.landing-page .info2 h1 {
+    font-size: 44px;
+    margin: 0 -6rem 10px;
+    line-height: 1.4;
+    color: #5d5d5d;
+    margin-right: 1rem;
+}
+
+.landing-page .info2 p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #5d5d5d;
+    margin-left: -6rem;
+    margin-right: 1rem;
+}
+
+.landing-page .info {
+    width: 35%;
+    float: left;
+    margin-top: 80px;
+}
+
+.landing-page .info h1 {
+    font-size: 44px;
+    margin: 0 0 10px;
+    line-height: 1.4;
+    color: #5d5d5d;
+}
+
+.landing-page .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+.landing-page .info button {
+    padding: 12px 30px;
+    margin-top: 30px;
+}
+
+.landing-page .image {
+    width: 50%;
+    float: right;
+}
+
+.landing-page .image img {
+    max-width: 100%;
+}
+
+.landing-page .image2 {
+    width: 50%;
+    float: left;
+}
+
+.landing-page .image2 img {
+    max-width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.nav-toggle {
+    display: none;
+    float: right;
+}
+
+.linkArea {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
+
+.cardArea:hover {
+    transform: scale(1.05);
+    color: rgb(82, 82, 82);
+}
+
+#linhaHome {
+    display: inline-block;
+}
+
+#linhaHome2 {
+    display: inline-block;
+}
+
+.botoesMenu {
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.btnsaida {
+    font-size: 18px;
+    filter: none;
+    color: rgb(44, 44, 44);
+    height: 2.2rem;
+    margin-top: 0.1rem;
+}
+
+#localizacao {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    width: 40rem;
+}
+
+/* Cards */
+.areaCliente {
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+    margin-left: -1rem;
+}
+
+#btnCopiarPix {
+    cursor: pointer;
+}
+
+.areaCopiarCodigoPix {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.groupCopiarPix {
+    margin-top: -1rem;
+}
+
+.containerAreaCliente {
+    margin-left: 2.2rem;
+    margin-right: 1.8rem;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.containerAreaMotoboy {
+    margin-left: 2.2rem;
+    margin-right: 1.8rem;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* background-color: white;
+    width: 100%; */
+}
+
+.pedidoAccordionCliente {
+    height: 10rem;
+}
+
+#cardPacotes {
+    width: 20rem;
+}
+
+#iconCardMb {
+    width: 100px;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 375px) {
+    .containerAreaCliente {
+        margin-left: 6%;
+        padding-left: 6%;
+    }
+
+    .containerAreaMotoboy {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #cardPacotes {
+        width: 21rem;
+    }
+}
+
+.endExibirServicoCliente {
+    height: 2rem;
+}
+
+#areabotaoCardServicoCliente {
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 1190px) {
+    .endExibirServicoCliente {
+        height: 4rem;
+    }
+
+    .bgExibirAtivosClientes {
+        height: 30rem;
+    }
+
+    .pedidoAccordionCliente {
+        height: 22rem;
+    }
+    
+    #areabotaoCardServicoCliente {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .areaBotaoAcorddionClientes {
+        height: 17rem;
+    }
+
+    .btnLoginMotoboy {
+        margin-right: 10rem;
+    }
+
+    .containerAreaMotoboy {
+        margin: 0;
+    }
+    
+    #exibirServicoMb {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 2rem;
+        padding-top: -2rem;
+    }
+
+    .mapaExibicaoMb {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+#containerHome {
+    background-color: white;
+    padding-left: 6rem;
+    padding-right: 8rem;
+    padding-bottom: 4rem;
+    border-radius: 20px;
+}
+
+.textoPrincHome {
+    margin-right: -3rem;
+}
+
+.tituloSegundHome {
+    margin-bottom: 2rem;
+}
+
+/* mudanca */
+
+@media screen and (max-width: 545px) {
+    .endExibirServicoCliente {
+        height: 6.5rem;
+    }
+
+    .bgExibirAtivosClientes {
+        height: 36rem;
+    }
+
+    .pedidoAccordionCliente {
+        height: 25rem;
+    }
+    
+    #areabotaoCardServicoCliente {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .areaBotaoAcorddionClientes {
+        height: 17rem;
+    }
+    
+    #containerHome {
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .btnLoginMotoboy {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .areabotoes1Home {
+        margin-left: 1.0rem;
+    }
+
+    .tituloPrincHome {
+        margin-left: 1rem;
+    }
+    
+    .textoPrincHome {
+        font-size: 17px; 
+        text-align: justify; 
+        margin-right: 0rem;
+    }
+    
+    .tituloSegundHome {
+        margin-bottom: 3rem;
+    }
+
+    .areatextSegunHome {
+        margin-right: 2rem;
+    }
+
+    .areatextTercHome {
+        margin-right: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    #linhaHome {
+        margin-right: 0;
+    }
+
+    #map {
+        height: 15rem; 
+    }
+
+    .bgAdmClientes {
+        box-shadow:
+        0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+        0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+        0px 1.1px 10px rgba(0, 0, 0, 0.03),
+        0px 2px 17.9px rgba(0, 0, 0, 0.036),
+        0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+        0px 9px 80px rgba(0, 0, 0, 0.06);
+    
+        background-color: #ffffff;
+        width: 25rem;
+        height: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        border-radius: 20px;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 0;
+    }
+    
+    .bgAdmDadosRegiao {
+        box-shadow:
+        0px 0.2px 2.2px rgba(0, 0, 0, 0.017),
+        0px 0.6px 5.3px rgba(0, 0, 0, 0.024),
+        0px 1.1px 10px rgba(0, 0, 0, 0.03),
+        0px 2px 17.9px rgba(0, 0, 0, 0.036),
+        0px 3.8px 33.4px rgba(0, 0, 0, 0.043),
+        0px 9px 80px rgba(0, 0, 0, 0.06);
+    
+        background-color: #ffffff;
+        width: 20rem;
+        height: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        border-radius: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+    
+    #myChart {
+        margin-top: 1rem;
+    }
+    
+    #myChart2 {
+        margin-top: 1rem;
+        padding: 0;
+    }
+}
+
+#fundoLoginCliente {
+    background-color: white;
+    border-radius: 20px;
+    width: 25rem; 
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    box-shadow:
+    0px 1.3px 2.2px rgba(0, 0, 0, 0.02),
+    0px 3.1px 5.3px rgba(0, 0, 0, 0.028),
+    0px 5.8px 10px rgba(0, 0, 0, 0.035),
+    0px 10.3px 17.9px rgba(0, 0, 0, 0.042),
+    0px 19.2px 33.4px rgba(0, 0, 0, 0.05),
+    0px 46px 80px rgba(0, 0, 0, 0.07);
+}
+
+#fundoCadastroCliente {
+    background-color: white;
+    border-radius: 20px;
+    width: 32rem; 
+    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: -1.5rem;
+    box-shadow:
+    0px 1.3px 2.2px rgba(0, 0, 0, 0.02),
+    0px 3.1px 5.3px rgba(0, 0, 0, 0.028),
+    0px 5.8px 10px rgba(0, 0, 0, 0.035),
+    0px 10.3px 17.9px rgba(0, 0, 0, 0.042),
+    0px 19.2px 33.4px rgba(0, 0, 0, 0.05),
+    0px 46px 80px rgba(0, 0, 0, 0.07);
+}
+
+#fundoCadastroMotoboy {
+    background-color: white;
+    border-radius: 20px;
+    width: 32rem; 
+    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: -1.5rem;
+    box-shadow:
+    0px 1.3px 2.2px rgba(0, 0, 0, 0.02),
+    0px 3.1px 5.3px rgba(0, 0, 0, 0.028),
+    0px 5.8px 10px rgba(0, 0, 0, 0.035),
+    0px 10.3px 17.9px rgba(0, 0, 0, 0.042),
+    0px 19.2px 33.4px rgba(0, 0, 0, 0.05),
+    0px 46px 80px rgba(0, 0, 0, 0.07);
+}
+
+#fundoLoginMotoboy {
+    background-color: white;
+    border-radius: 20px;
+    width: 25rem; 
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    box-shadow:
+    0px 1.3px 2.2px rgba(0, 0, 0, 0.02),
+    0px 3.1px 5.3px rgba(0, 0, 0, 0.028),
+    0px 5.8px 10px rgba(0, 0, 0, 0.035),
+    0px 10.3px 17.9px rgba(0, 0, 0, 0.042),
+    0px 19.2px 33.4px rgba(0, 0, 0, 0.05),
+    0px 46px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+#fundoLoginAdministrador {
+    background-color: white;
+    border-radius: 20px;
+    width: 25rem; 
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    box-shadow:
+  0px 1.3px 2.2px rgba(0, 0, 0, 0.02),
+  0px 3.1px 5.3px rgba(0, 0, 0, 0.028),
+  0px 5.8px 10px rgba(0, 0, 0, 0.035),
+  0px 10.3px 17.9px rgba(0, 0, 0, 0.042),
+  0px 19.2px 33.4px rgba(0, 0, 0, 0.05),
+  0px 46px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+/* mudanca */
+#labelImg {
+    margin-left: 0;
+}
+
+#labelImg2 {
+    margin-left: 0;
+}
+
+.image-upload {
+    margin-top: 3rem;
+}
+
+.image-upload2 {
+    margin-top: 3rem;
+}
+
+#btnAdicionarImagemInput {
+    margin-left: -1rem; 
+    border-radius: 20px; 
+    width: 90%; 
+    height: 3rem; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    padding-left: 0; 
+    padding-right: 0; 
+    margin-top: 1rem; 
+    color: white;
+}
+
+@media screen and (max-width: 376px) {
+    .endExibirServicoCliente {
+        height: 45%;
+        font-size: 13px;
+    }
+
+    .bgExibirAtivosClientes {
+        height: 36rem;
+    }
+
+    .pedidoAccordionCliente {
+        height: 24rem;
+    }
+    
+    #areabotaoCardServicoCliente {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    #outrasInfoCardServicoCliente {
+        font-size: 13px;
+    }   
+
+    .areaBotaoAcorddionClientes {
+        height: 17rem;
+    }
+
+    #btnAdicionarImagemInput {
+        margin-left: -2rem; 
+        margin-right: -2rem; 
+        border-radius: 20px; 
+        width: 90%; 
+        height: 3rem; 
+        padding-top: 0; 
+        padding-bottom: 2rem; 
+        padding-left: 0; 
+        padding-right: 0; 
+        margin-top: 1rem; 
+        color: white;
+    }
+
+    #labelImg {
+        width: 90%;
+    }
+    
+    #labelImg2 {
+        width: 90%;
+    }
+
+    #fundoLoginCliente {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        padding-bottom: 1.8rem;
+        margin-left: 1rem;
+        width: 20rem; 
+
+    }
+    
+    #fundoCadastroCliente {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        padding-bottom: 1.8rem;
+        margin-left: 1rem;
+        width: 20rem; 
+
+    }
+   
+    #fundoCadastroMotoboy {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        padding-bottom: 1.8rem;
+        margin-left: 1rem;
+        width: 20rem; 
+
+    }
+    
+    #fundoLoginAdministrador {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        padding-bottom: 1.8rem;
+        margin-left: 1rem;
+        width: 20rem; 
+
+    }
+    
+    #fundoLoginMotoboy {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        padding-bottom: 1.8rem;
+        margin-left: 1rem;
+        width: 20rem; 
+    }
+
+    .landing-page {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    #containerHome {
+        border-radius: 0;
+    }
+}
+
+#areaPagamento {
+    display: flex;
+}
+
+#area1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+#area2 {
+    width: 200px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 5px;
+}
+
+#textoServicoNaoEncontrado {
+    height: 150px;
+}
+
+#infoDetalhesPagamentos {
+    margin-top: 4rem; 
+    width: 250px;
+}
+
+#infoDetalhesLinha2 {
+    width: 215px;
+}
+
+#infoDetalhesValorFinal {
+    width: 250px;
+}
+
+#infoDetalhesLinha1 {
+    display: none;
+}
+
+@media screen and (max-width: 1190px) {
+    #textoServicoNaoEncontrado {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #area2 {
+        width: 780px;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 5px;
+    }
+
+    #infoDetalhesPagamentos {
+        margin-top: 4rem; 
+        width: auto;
+    }
+    
+    #textoServicoNaoEncontrado {
+        height: 350px;
+    }
+
+    #barraAreaPagamento {
+        display: none;
+    }
+    
+    #infoDetalhesLinha1 {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    #infoDetalhesLinha2 {
+        width: auto;
+    }
+
+    #infoDetalhesValorFinal {
+        width: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    #linhaHome {
+        display: flex;
+        width: 100%;
+    }
+
+    #localizacao {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.5rem;
+        width: 20rem;
+    }
+
+    .landing-page .info {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+        
+    .landing-page .info h1 {
+        font-size: 44px;
+        margin: 0 0 1.5rem;
+        line-height: 1.4;
+        color: #5d5d5d;
+        text-align: center;
+    }
+
+    .landing-page .info p {
+        margin: 0;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #5d5d5d;
+    }
+
+    .texto {
+        text-indent: 2.5rem;
+        text-align: justify;
+    }
+
+    .landing-page .info a {
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        margin-left: 8.5rem;
+        margin-right: 8.5rem;
+    }
+ 
+    .landing-page .image {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .textoLoginHome {
+        text-align: center;
+        
+    }
+
+    .landing-page .image img {
+        max-width: 100%;
+    }
+
+    #linhaHome2 {
+        display: flex;
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .landing-page .info2 {
+        width: 100%;
+        margin-top: -1.5rem;
+        margin-right: -0.5rem;
+    }
+    
+    .landing-page .info2 h1 {
+        font-size: 44px;
+        color: #5d5d5d;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .landing-page .info2 p {
+        margin: 0;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #5d5d5d;
+        text-align: justify;
+        text-indent: 2.5rem;
+    }    
+
+    .landing-page .image2 {
+        width: 100%;
+    }
+    
+    .landing-page .image2 img {
+        max-width: 100%;
+    }
+
+    #infoDetalhesPagamentos {
+        margin-top: 4rem; 
+        width: auto;
+    }
+    
+    #infoDetalhesLinha1 {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    #infoDetalhesLinha2 {
+        width: auto;
+    }
+
+    #infoDetalhesValorFinal {
+        width: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    #area2 {
+        width: 492px;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 5px;
+    }
+
+    #barraAreaPagamento {
+       display: none;
+    }
+}
+
+/* Toast's */
+.divToast {
+    margin-top: 3.5rem;
+}
+
+/* footer {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+} */
+
+.metodoPagamentoAcordion:hover {
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#cardPesos {
+    width: 16rem;
+    height: 20rem;
+}
+
+.info3 {
+    margin-bottom: 2rem;
+}
+
+/*
+.card-body {
+    filter: blur(0px);
+} */
+
+.btnVerificarInfo {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+  
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position: relative;
+
+    height:15rem;
+}
+
+.map-container-2 iframe
+{
+
+    width: 15rem;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+#map {
+    width: 80%; 
+    height: 20rem; 
+    background-color: #ddd;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.mapMb {
+    width: 95%; 
+    height: 12rem; 
+    background-color: #ddd;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#qrcode {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+.gm-style-cc { display:none; }
+
+
+.labelImg {
+    height: 3rem;
+    width: 350px;
+    border-radius: 20px;
+    vertical-align: middle;
+    padding-top: 1rem;
+}
+
+.labelImg2 {
+    height: 3rem;
+    width: 350px;
+    border-radius: 20px;
+    vertical-align: middle;
+    padding-top: 1rem;
+}
+
+input[type='file'] {
+    display: none
+}
